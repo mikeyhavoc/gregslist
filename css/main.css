@@ -1,0 +1,65 @@
+/************************
+NAV section
+************************/
+.logo {
+  display:flex;
+  justify-content:space-between;
+}
+/*********
+search-section
+**********/
+.search-section {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+/*** FORM ***/
+  .search-bar {
+    display: inline-flex;
+    align-self:flex-start;
+  }
+  input[type="text"] {
+    border-left-style: outset;
+    border-top-style: outset;
+    height: 2em;
+    padding: .75em;
+    width: 25em;
+  }
+  button[type="submit"] {
+    padding: 0;
+    border-style: none;
+    border: 1px solid #efefef;
+    margin-left: .25em;
+    border-radius: 3px;
+  }
+  img[src*="glass.png"] {
+    height: 4vh;
+    width: 4vh;
+    padding: 0;
+    border-radius:3%;
+  }
+  /****** need browser types to use**/
+  ::-webkit-input-placeholder {
+    text-indent:.275em;
+    font-weight: bold;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    text-indent:.275em;
+    font-weight: bold;
+  }
+  ::-moz-placeholder {  /* Firefox 19+ */
+    text-indent:.275em;
+    font-weight: bold;
+  }
+  :-ms-input-placeholder {
+    text-indent:.275em;
+    font-weight: bold;
+  }
+/************************
+prev-next section
+************************/
+.prev-next {
+  margin-top: 2.5em;
+  display: flex;
+}

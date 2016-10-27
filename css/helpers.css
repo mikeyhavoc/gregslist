@@ -1,0 +1,11 @@
+.pad-l {
+  padding-left: .75em;
+}
+.mar-r {
+  margin-right: .75em;
+}
+.col-third {
+  display: inline-flex;
+  width: 15%;
+
+}
