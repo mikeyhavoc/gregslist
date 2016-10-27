@@ -7,5 +7,8 @@
 .col-third {
   display: inline-flex;
   width: 15%;
-
+}
+.font {
+  font-size: .75em;
+  font-weight: bold;  
 }
