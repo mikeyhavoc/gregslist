@@ -34,10 +34,9 @@ search-section
     border-radius: 3px;
   }
   img[src*="glass.png"] {
-    height: 4vh;
-    width: 4vh;
+    width: 4.1vh;
     padding: 0;
-    border-radius:3%;
+    border-radius:5%;
   }
   /****** need browser types to use**/
   ::-webkit-input-placeholder {
@@ -62,4 +61,21 @@ prev-next section
 .prev-next {
   margin-top: 2.5em;
   display: flex;
+}
+.btn {
+  padding: .5em .75em;
+  border: 1px solid lightgrey;
+  background-color: white;
+}
+.l {
+  border-top-left-radius: 5%;
+  border-bottom-left-radius: 5%;
+}
+.r {
+  border-top-right-radius: 5%;
+  border-bottom-right-radius: 5%;
+}
+.numbers {
+  padding-left: 1.75em;
+  padding-right: 1.75em
 }
