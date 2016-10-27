@@ -79,3 +79,8 @@ prev-next section
   padding-left: 1.75em;
   padding-right: 1.75em
 }
+.prev-next  a,
+.prev-next  a:hover
+.prev-next  a:visited {
+  color: black;
+}
