@@ -1,3 +1,57 @@
+html {
+  box-sizing: border-box;
+}
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+header {
+  position: absolute;
+  background-color: #f2f2f2;
+  width: 100%;
+  top: 0;
+}
+h1 {
+  margin: .5em;
+  padding-top: .25em;
+  font-size: 1.3em;
+}
+ul {
+  display: inline-flex;
+  margin-top: .5em;
+  padding-top: .25em;
+}
+li {
+    list-style:none;
+    font-size: 1.3em;
+    margin-left: .75em;
+}
+button {
+display: inline-flex;
+}
+a {
+  text-decoration: none;
+  color: purple;
+}
+main {
+ margin-top: 5em;
+}
+/***********************
+helpers
+***********************/
+.pad-l {
+  padding-left: .75em;
+}
+.mar-r {
+  margin-right: .75em;
+}
+.col-third {
+  display: inline-flex;
+  width: 15%;
+}
+.font {
+  font-size: 1em;
+  font-weight: 500;
+}
 /************************
 NAV section
 ************************/
@@ -83,4 +137,26 @@ prev-next section
 .prev-next  a:hover
 .prev-next  a:visited {
   color: black;
+}
+/*****************************
+Search-results
+******************************/
+.search-results {
+  margin-top: 2.75em;
+  display: flex;
+
+}
+.results {
+  display: flex;
+  flex-direction: column;
+}
+.search-results p {
+  display: inline-flex;
+  color: grey;
+}
+date + a {
+  color: blue;
+  font-weight: bolder;
+  padding-left: .75em;
+  padding-right: .75em;
 }
